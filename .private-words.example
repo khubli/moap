@@ -1,0 +1,6 @@
+# Words that must never appear in a public copy of this repository: your own
+# name, employers, clients, internal project names. One per line; case does
+# not matter. Copy this file to `.private-words` (git ignores it) and edit it.
+# scripts/verify-claims.mjs fails if any tracked file contains one of them.
+Contoso
+Fabrikam

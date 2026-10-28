@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "orchestrator",
+  // Models for all eight MOAP agents live here, in one place. This is the
+  // only file a new project edits for model choice — see the tier table in
+  // README.md. Agent prompts in .opencode/agents/ set behavior only.
+  "agent": {
+    "orchestrator": { "model": "openrouter/z-ai/glm-5.3" },
+    "architect": { "model": "openrouter/z-ai/glm-5.3" },
+    "reviewer": { "model": "openrouter/z-ai/glm-5.3" },
+    "requirements": { "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free" },
+    "ux": { "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free" },
+    "ui": { "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free" },
+    "coder": { "model": "openrouter/z-ai/glm-5.3" },
+    "tester": { "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free" }
+  }
+}

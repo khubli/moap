@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="MOAP">
+  <rect width="128" height="128" rx="28" fill="#6d4fd8"/>
+  <g stroke="#e9e3ff" stroke-width="3" stroke-linecap="round" opacity="0.55">
+    <line x1="64" y1="64" x2="64" y2="26"/><line x1="64" y1="64" x2="93.7" y2="40.3"/>
+    <line x1="64" y1="64" x2="101" y2="72.5"/><line x1="64" y1="64" x2="80.5" y2="98.2"/>
+    <line x1="64" y1="64" x2="47.5" y2="98.2"/><line x1="64" y1="64" x2="27" y2="72.5"/>
+    <line x1="64" y1="64" x2="34.3" y2="40.3"/>
+  </g>
+  <g fill="#e9e3ff">
+    <circle cx="64" cy="26" r="7"/><circle cx="93.7" cy="40.3" r="7"/><circle cx="101" cy="72.5" r="7"/>
+    <circle cx="80.5" cy="98.2" r="7"/><circle cx="47.5" cy="98.2" r="7"/><circle cx="27" cy="72.5" r="7"/>
+    <circle cx="34.3" cy="40.3" r="7"/>
+  </g>
+  <circle cx="64" cy="64" r="14" fill="#ffffff"/>
+</svg>
